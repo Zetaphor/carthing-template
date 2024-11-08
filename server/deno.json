@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "start": "deno run --allow-run main.ts",
+    "start:ws": "deno run --allow-net websocket-server.ts",
+    "start:socks": "deno run --allow-net socks-server.ts"
+  },
+  "imports": {
+    "std/": "https://deno.land/std@0.220.1/"
+  }
+}

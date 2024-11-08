@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "dom.asynciterable",
+      "deno.ns"
+    ],
+    "strict": true
+  },
+  "tasks": {
+    "build": "deno run --allow-read --allow-env --allow-net --allow-write build/build-scss.ts && deno run --allow-run --allow-read --allow-env --allow-net --allow-write build/build-js.ts && deno run --allow-read --allow-write build/copy-html.ts",
+    "watch": "deno run --allow-read --allow-env --allow-net --allow-write --watch build/build-scss.ts & deno run --allow-run --allow-read --allow-env --allow-net --allow-write --watch build/build-js.ts & deno run --allow-read --allow-write --watch build/copy-html.ts"
+  }
+}
