@@ -128,7 +128,7 @@ Otherwise the device will think it's failing to boot and will switch boot slots 
 
 # USB Terminal
 
-oh yeah real quick sidenote, if you need a terminal over something other than usb for some reason, you can drop this into a file in /etc/init.d (either make your own or drop it in an empty file like S42wifi) and it'll spawn a shell over rfcomm:
+If you need a terminal over something other than USB, you can drop this into a file in /etc/init.d (either make your own or drop it in an empty file like S42wifi) and it'll spawn a shell over rfcomm:
 
 ```sh
 #!/bin/sh
