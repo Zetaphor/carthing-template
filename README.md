@@ -43,8 +43,8 @@ This template has been developed and tested on Linux systems. While it may work 
 ## 🤝 Credits
 
 This project builds upon:
-- [`superbird-custom-webapp`](https://github.com/pajowu/superbird-custom-webapp/tree/main/example_webapp)
-- [DeskThing](https://github.com/ItsRiprod/DeskThing)
+- [`superbird-custom-webapp`](https://github.com/pajowu/superbird-custom-webapp/tree/main/example_webapp) - The base client application is a modified version of this to include TypeScript and SCSS support
+- [DeskThing](https://github.com/ItsRiprod/DeskThing) - The on-device proxy and push scripts are modified versions of the scripts in this project
 
 ## 📄 License
 
