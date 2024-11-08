@@ -13,3 +13,5 @@ You will need to forward/reverse the ports using ADB so that the carthing can co
 The `push-app.sh` script will build the app, push it to the carthing, setup the on-device HTTP/Websocket proxy, restart Chromium, and setup the adb ports.
 
 The `on-device-proxy.sh` script and `install-proxy.sh` scripts are both modified versions from [DeskThing](https://github.com/ItsRiprod/DeskThing).
+
+This script was developed and tested on Linux, it may work on MacOS with slight modifications.
