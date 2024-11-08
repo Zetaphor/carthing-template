@@ -52,4 +52,4 @@ This project builds upon:
 
 ### 🤖 Built with Claude
 
-Most of this codebase and the entirety of this README was written by an Claude Sonnet 3.5.
+Most of this codebase and the entirety of this README was written by Claude Sonnet 3.5.
