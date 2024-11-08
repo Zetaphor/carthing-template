@@ -8,7 +8,7 @@ try {
     outfile: "static/js/main.bundle.js",
     bundle: true,
     format: "iife",
-    target: ["chrome69"],
+    target: ["chrome69", "firefox62", "safari12", "edge18"],
     minify: true,
   });
 
