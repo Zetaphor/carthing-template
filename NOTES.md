@@ -82,7 +82,7 @@ Configure the proxy in the browser to use `127.0.0.1:1080` by editing `/etc/supe
 
 # Setup system-wide socks proxy
 
-Add the following to the `/etc/profile` file on the device:
+Update the `/etc/profile` file on the device:
 ```sh
 echo 'export http_proxy=socks5h://127.0.0.1:1080
 export https_proxy=socks5h://127.0.0.1:1080
